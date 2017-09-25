@@ -4,7 +4,8 @@
   "description": "Hello World Bot App",
   "main": "app.js",
   "scripts": {
-    "test": "/"
+    "test": "/",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
