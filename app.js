@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(request, response) {
  
   console.log("Hello World");
-  response.sendStatus(200);
+  response.send("Hello World");
 });
 
 app.get('/webhook', function(req, res) {
