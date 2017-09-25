@@ -10,8 +10,9 @@ app.use(express.static(__dirname + '/public'));
 //app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render("Hello World");
+ 
   console.log("Hello World");
+  response.sendStatus(200);
 });
 
 app.get('/webhook', function(req, res) {
